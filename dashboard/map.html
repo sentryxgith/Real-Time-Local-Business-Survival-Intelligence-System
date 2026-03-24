@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_09a6a06f792070784011f4b7dde5ff2f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_09a6a06f792070784011f4b7dde5ff2f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_09a6a06f792070784011f4b7dde5ff2f = L.map(
+                "map_09a6a06f792070784011f4b7dde5ff2f",
+                {
+                    center: [23.0225, 72.5714],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9e5c6e3f52c0b59784cd7c1352e1bd11 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9e5c6e3f52c0b59784cd7c1352e1bd11.addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+            var marker_426519540c3bcda0a1bc562894178424 = L.marker(
+                [23.070899766017565, 72.57757470876932],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_f62cb63ffbcb28792df09de1d32b4d90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00737f6d00bb76579a1a488b75cb0c9e = $(`<div id="html_00737f6d00bb76579a1a488b75cb0c9e" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_0<br>         Rating: 4.2<br>         Sentiment: 0.27944         </div>`)[0];
+                popup_f62cb63ffbcb28792df09de1d32b4d90.setContent(html_00737f6d00bb76579a1a488b75cb0c9e);
+            
+        
+
+        marker_426519540c3bcda0a1bc562894178424.bindPopup(popup_f62cb63ffbcb28792df09de1d32b4d90)
+        ;
+
+        
+    
+    
+            var marker_7f3d7150da30edc017a72e7a39ca2521 = L.marker(
+                [23.052769616276183, 72.55402823834763],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_db04eb2854627ab40ed7835d69622698 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b99da1795e6ad838c23831b130c9f06f = $(`<div id="html_b99da1795e6ad838c23831b130c9f06f" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_1<br>         Rating: 5.0<br>         Sentiment: 0.40523         </div>`)[0];
+                popup_db04eb2854627ab40ed7835d69622698.setContent(html_b99da1795e6ad838c23831b130c9f06f);
+            
+        
+
+        marker_7f3d7150da30edc017a72e7a39ca2521.bindPopup(popup_db04eb2854627ab40ed7835d69622698)
+        ;
+
+        
+    
+    
+            var marker_a132a4339c50dc3fcfd7ab97bc544ebe = L.marker(
+                [23.044952842855924, 72.59379116329866],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_b7d6d482071b494fe6aa17d8d3dddf5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64402dae8ad5765deb6d631e7ab1fe41 = $(`<div id="html_64402dae8ad5765deb6d631e7ab1fe41" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_2<br>         Rating: 3.1<br>         Sentiment: 0.13799         </div>`)[0];
+                popup_b7d6d482071b494fe6aa17d8d3dddf5a.setContent(html_64402dae8ad5765deb6d631e7ab1fe41);
+            
+        
+
+        marker_a132a4339c50dc3fcfd7ab97bc544ebe.bindPopup(popup_b7d6d482071b494fe6aa17d8d3dddf5a)
+        ;
+
+        
+    
+    
+            var marker_68bc49aafe9a8c288de28ddf078dc103 = L.marker(
+                [23.03464417481583, 72.60543987287726],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_6113830cc2c95724023bfdef095d6db0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bd4a0a2566ec47ef5353521398c37f1 = $(`<div id="html_5bd4a0a2566ec47ef5353521398c37f1" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_3<br>         Rating: 3.6<br>         Sentiment: 0.32194         </div>`)[0];
+                popup_6113830cc2c95724023bfdef095d6db0.setContent(html_5bd4a0a2566ec47ef5353521398c37f1);
+            
+        
+
+        marker_68bc49aafe9a8c288de28ddf078dc103.bindPopup(popup_6113830cc2c95724023bfdef095d6db0)
+        ;
+
+        
+    
+    
+            var marker_18c95486586fdb6ef9e230d5eae90058 = L.marker(
+                [22.98837626738634, 72.60762170487894],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_bd50c7942bc62b8e720fdcef9dac89fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_663ca624a2759f5706b63fc8adfbed9f = $(`<div id="html_663ca624a2759f5706b63fc8adfbed9f" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_4<br>         Rating: 3.0<br>         Sentiment: 0.32250999999999996         </div>`)[0];
+                popup_bd50c7942bc62b8e720fdcef9dac89fb.setContent(html_663ca624a2759f5706b63fc8adfbed9f);
+            
+        
+
+        marker_18c95486586fdb6ef9e230d5eae90058.bindPopup(popup_bd50c7942bc62b8e720fdcef9dac89fb)
+        ;
+
+        
+    
+    
+            var marker_817846bc4c7e57eb40bb5869d1e1fc4c = L.marker(
+                [23.02768622624919, 72.5629585306365],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_ce1fee0bea51ae297a5bcd1a418ce1d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a56e86ed0febf6094bdfe8e0fb3b16e5 = $(`<div id="html_a56e86ed0febf6094bdfe8e0fb3b16e5" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_5<br>         Rating: 2.7<br>         Sentiment: 0.34717000000000003         </div>`)[0];
+                popup_ce1fee0bea51ae297a5bcd1a418ce1d7.setContent(html_a56e86ed0febf6094bdfe8e0fb3b16e5);
+            
+        
+
+        marker_817846bc4c7e57eb40bb5869d1e1fc4c.bindPopup(popup_ce1fee0bea51ae297a5bcd1a418ce1d7)
+        ;
+
+        
+    
+    
+            var marker_31c3444c40a2317a63b3bb9a3770586e = L.marker(
+                [22.989394223085824, 72.59735320970516],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_1dcdde1d3fc1ddf13f0df280b533f306 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f6472861f104122520b9985edc090b6 = $(`<div id="html_6f6472861f104122520b9985edc090b6" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_6<br>         Rating: 3.8<br>         Sentiment: 0.13133999999999998         </div>`)[0];
+                popup_1dcdde1d3fc1ddf13f0df280b533f306.setContent(html_6f6472861f104122520b9985edc090b6);
+            
+        
+
+        marker_31c3444c40a2317a63b3bb9a3770586e.bindPopup(popup_1dcdde1d3fc1ddf13f0df280b533f306)
+        ;
+
+        
+    
+    
+            var marker_d59b36011bb967766c501015af00755c = L.marker(
+                [23.028592959254258, 72.5855216466526],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_c3c06cbb48ba55c41f5724911e398ac5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce071e2e5573ba90f0e2af30d5e19623 = $(`<div id="html_ce071e2e5573ba90f0e2af30d5e19623" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_7<br>         Rating: 3.0<br>         Sentiment: 0.23864999999999997         </div>`)[0];
+                popup_c3c06cbb48ba55c41f5724911e398ac5.setContent(html_ce071e2e5573ba90f0e2af30d5e19623);
+            
+        
+
+        marker_d59b36011bb967766c501015af00755c.bindPopup(popup_c3c06cbb48ba55c41f5724911e398ac5)
+        ;
+
+        
+    
+    
+            var marker_f855305f9f1e17b4515141f591eb398a = L.marker(
+                [23.047849644628247, 72.60143004800591],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_8a9f16dcf4aefd197503117f0b68047b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81e1d68dbabcfda12c9b0820d7289d64 = $(`<div id="html_81e1d68dbabcfda12c9b0820d7289d64" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_8<br>         Rating: 4.7<br>         Sentiment: 0.16265000000000002         </div>`)[0];
+                popup_8a9f16dcf4aefd197503117f0b68047b.setContent(html_81e1d68dbabcfda12c9b0820d7289d64);
+            
+        
+
+        marker_f855305f9f1e17b4515141f591eb398a.bindPopup(popup_8a9f16dcf4aefd197503117f0b68047b)
+        ;
+
+        
+    
+    
+            var marker_516ee9ca422af34cccdff96d07909cb5 = L.marker(
+                [23.036591236694907, 72.61762336803056],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_9372f97a9f00a592be08e33eecdb0084 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_def84c7443577e1324e196311cf1d682 = $(`<div id="html_def84c7443577e1324e196311cf1d682" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_9<br>         Rating: 4.4<br>         Sentiment: 0.42394         </div>`)[0];
+                popup_9372f97a9f00a592be08e33eecdb0084.setContent(html_def84c7443577e1324e196311cf1d682);
+            
+        
+
+        marker_516ee9ca422af34cccdff96d07909cb5.bindPopup(popup_9372f97a9f00a592be08e33eecdb0084)
+        ;
+
+        
+    
+    
+            var marker_0057ed308b90961fc8b4729a910c0672 = L.marker(
+                [23.07158103373096, 72.61219193726627],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_0c8a354e71ebb742a633eaf8d8c3e252 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6a91485fd19dd3db0f5a362420807e2 = $(`<div id="html_a6a91485fd19dd3db0f5a362420807e2" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_10<br>         Rating: 4.9<br>         Sentiment: 0.07327999999999998         </div>`)[0];
+                popup_0c8a354e71ebb742a633eaf8d8c3e252.setContent(html_a6a91485fd19dd3db0f5a362420807e2);
+            
+        
+
+        marker_0057ed308b90961fc8b4729a910c0672.bindPopup(popup_0c8a354e71ebb742a633eaf8d8c3e252)
+        ;
+
+        
+    
+    
+            var marker_e1615d728e9ab65c19b0d515aa0134f4 = L.marker(
+                [22.98340788943285, 72.55665738668819],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_1949d0575c5adb5b37cd8ec6a7b18982 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4827fd0a4dcd76b113d07697df751a7c = $(`<div id="html_4827fd0a4dcd76b113d07697df751a7c" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_11<br>         Rating: 3.0<br>         Sentiment: 0.15536         </div>`)[0];
+                popup_1949d0575c5adb5b37cd8ec6a7b18982.setContent(html_4827fd0a4dcd76b113d07697df751a7c);
+            
+        
+
+        marker_e1615d728e9ab65c19b0d515aa0134f4.bindPopup(popup_1949d0575c5adb5b37cd8ec6a7b18982)
+        ;
+
+        
+    
+    
+            var marker_63e4df22d293f933c3a2fe5480545149 = L.marker(
+                [23.005066018769742, 72.55332761784419],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_6b20411cefb24068aa0bf0fc5538fa69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6374ee89873814fc81730ff7c0d9f19 = $(`<div id="html_d6374ee89873814fc81730ff7c0d9f19" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_12<br>         Rating: 4.2<br>         Sentiment: 0.38012999999999997         </div>`)[0];
+                popup_6b20411cefb24068aa0bf0fc5538fa69.setContent(html_d6374ee89873814fc81730ff7c0d9f19);
+            
+        
+
+        marker_63e4df22d293f933c3a2fe5480545149.bindPopup(popup_6b20411cefb24068aa0bf0fc5538fa69)
+        ;
+
+        
+    
+    
+            var marker_edd0385e4f72e7a94d802329b1d854fd = L.marker(
+                [22.982100597932476, 72.5566843445166],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_320a5bbafb58543d6e7405759f711c05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f62b138b57c6dbb671f41f827b9032b = $(`<div id="html_1f62b138b57c6dbb671f41f827b9032b" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_13<br>         Rating: 4.9<br>         Sentiment: 0.19252         </div>`)[0];
+                popup_320a5bbafb58543d6e7405759f711c05.setContent(html_1f62b138b57c6dbb671f41f827b9032b);
+            
+        
+
+        marker_edd0385e4f72e7a94d802329b1d854fd.bindPopup(popup_320a5bbafb58543d6e7405759f711c05)
+        ;
+
+        
+    
+    
+            var marker_2fe1e828c096fcc26a5eae24bce56f34 = L.marker(
+                [23.015827953357665, 72.55889928684014],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_e6fa194a7ba335280f7ab412d1b07579 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a54211d977349ab551240a04fc6dd0f5 = $(`<div id="html_a54211d977349ab551240a04fc6dd0f5" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_14<br>         Rating: 3.3<br>         Sentiment: 0.21883         </div>`)[0];
+                popup_e6fa194a7ba335280f7ab412d1b07579.setContent(html_a54211d977349ab551240a04fc6dd0f5);
+            
+        
+
+        marker_2fe1e828c096fcc26a5eae24bce56f34.bindPopup(popup_e6fa194a7ba335280f7ab412d1b07579)
+        ;
+
+        
+    
+    
+            var marker_d6e183568143277b9f2dcf605c0d79dd = L.marker(
+                [23.038794603472983, 72.61769294947622],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_3721fd84145ce79d3d067738b3890a4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c927910142be685906313d99ab04e7c6 = $(`<div id="html_c927910142be685906313d99ab04e7c6" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_15<br>         Rating: 4.4<br>         Sentiment: 0.39575         </div>`)[0];
+                popup_3721fd84145ce79d3d067738b3890a4e.setContent(html_c927910142be685906313d99ab04e7c6);
+            
+        
+
+        marker_d6e183568143277b9f2dcf605c0d79dd.bindPopup(popup_3721fd84145ce79d3d067738b3890a4e)
+        ;
+
+        
+    
+    
+            var marker_49bfa04240b8a1bb25e5e2eda94f6062 = L.marker(
+                [23.020590265135468, 72.54187623172356],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_0c7349a04ecd7d3b2ccc0aa80f739348 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e493abab52578449840f7d352a31e4f2 = $(`<div id="html_e493abab52578449840f7d352a31e4f2" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_16<br>         Rating: 2.8<br>         Sentiment: 0.10979999999999998         </div>`)[0];
+                popup_0c7349a04ecd7d3b2ccc0aa80f739348.setContent(html_e493abab52578449840f7d352a31e4f2);
+            
+        
+
+        marker_49bfa04240b8a1bb25e5e2eda94f6062.bindPopup(popup_0c7349a04ecd7d3b2ccc0aa80f739348)
+        ;
+
+        
+    
+    
+            var marker_545ff20327163192bd197af288c439a7 = L.marker(
+                [23.026416236918703, 72.57232717380688],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_8057d46f0718970ea1f8144b90e425fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_653c9f1d0781b7e0eb096938089fec36 = $(`<div id="html_653c9f1d0781b7e0eb096938089fec36" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_17<br>         Rating: 2.8<br>         Sentiment: 0.20149         </div>`)[0];
+                popup_8057d46f0718970ea1f8144b90e425fd.setContent(html_653c9f1d0781b7e0eb096938089fec36);
+            
+        
+
+        marker_545ff20327163192bd197af288c439a7.bindPopup(popup_8057d46f0718970ea1f8144b90e425fd)
+        ;
+
+        
+    
+    
+            var marker_8f980353e7d9375906b0490d19c26c1e = L.marker(
+                [23.054891138906296, 72.54207156807523],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_6ff70b7e6465995d9a0bb490eb5f03a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d316125ecc3298bf20de64d936bc6508 = $(`<div id="html_d316125ecc3298bf20de64d936bc6508" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_18<br>         Rating: 2.9<br>         Sentiment: 0.40711         </div>`)[0];
+                popup_6ff70b7e6465995d9a0bb490eb5f03a1.setContent(html_d316125ecc3298bf20de64d936bc6508);
+            
+        
+
+        marker_8f980353e7d9375906b0490d19c26c1e.bindPopup(popup_6ff70b7e6465995d9a0bb490eb5f03a1)
+        ;
+
+        
+    
+    
+            var marker_9b8b6a1b9bba9586e0b0d28c788cc505 = L.marker(
+                [23.02379566106318, 72.61563091884726],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_391c4f0bb5ac30761de5005c6a5be991 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee337710c3072afd1975a0982e0610c0 = $(`<div id="html_ee337710c3072afd1975a0982e0610c0" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_19<br>         Rating: 2.9<br>         Sentiment: 0.32194         </div>`)[0];
+                popup_391c4f0bb5ac30761de5005c6a5be991.setContent(html_ee337710c3072afd1975a0982e0610c0);
+            
+        
+
+        marker_9b8b6a1b9bba9586e0b0d28c788cc505.bindPopup(popup_391c4f0bb5ac30761de5005c6a5be991)
+        ;
+
+        
+    
+    
+            var marker_ca00f529e76e6be0edd5f5cc4a164f85 = L.marker(
+                [23.013076150319897, 72.54264877649999],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_ffe247afbf03ed8cce9de6b5fe97e98b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbd88bb56a09a15afce64d59c9cd0e64 = $(`<div id="html_bbd88bb56a09a15afce64d59c9cd0e64" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_20<br>         Rating: 2.8<br>         Sentiment: 0.39858000000000005         </div>`)[0];
+                popup_ffe247afbf03ed8cce9de6b5fe97e98b.setContent(html_bbd88bb56a09a15afce64d59c9cd0e64);
+            
+        
+
+        marker_ca00f529e76e6be0edd5f5cc4a164f85.bindPopup(popup_ffe247afbf03ed8cce9de6b5fe97e98b)
+        ;
+
+        
+    
+    
+            var marker_6173c9844ff993a55b26d4484de263bd = L.marker(
+                [23.033817846381336, 72.58890571952993],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_3beda28f4d8c19fa41835d7c41a8a9a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_343ac1e7a2e107522e22c4f5c9b583e4 = $(`<div id="html_343ac1e7a2e107522e22c4f5c9b583e4" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_21<br>         Rating: 3.8<br>         Sentiment: 0.47614999999999996         </div>`)[0];
+                popup_3beda28f4d8c19fa41835d7c41a8a9a3.setContent(html_343ac1e7a2e107522e22c4f5c9b583e4);
+            
+        
+
+        marker_6173c9844ff993a55b26d4484de263bd.bindPopup(popup_3beda28f4d8c19fa41835d7c41a8a9a3)
+        ;
+
+        
+    
+    
+            var marker_1eac58ca75cd8de67a3660ef9e9c3eb5 = L.marker(
+                [23.01019402700996, 72.53078516064704],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_72f2871ef90534205a69b653087d01b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c50f204a819e0f91361b260b8e56f56 = $(`<div id="html_0c50f204a819e0f91361b260b8e56f56" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_22<br>         Rating: 4.5<br>         Sentiment: 0.39626         </div>`)[0];
+                popup_72f2871ef90534205a69b653087d01b1.setContent(html_0c50f204a819e0f91361b260b8e56f56);
+            
+        
+
+        marker_1eac58ca75cd8de67a3660ef9e9c3eb5.bindPopup(popup_72f2871ef90534205a69b653087d01b1)
+        ;
+
+        
+    
+    
+            var marker_7ddd77eb506b93633100cf940852305d = L.marker(
+                [23.024760150709866, 72.6124490725508],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_92d4c16519efe95c1330e27329508b3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ff562ed50b0e527c986a1de5fef5631 = $(`<div id="html_7ff562ed50b0e527c986a1de5fef5631" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_23<br>         Rating: 4.0<br>         Sentiment: 0.49813         </div>`)[0];
+                popup_92d4c16519efe95c1330e27329508b3c.setContent(html_7ff562ed50b0e527c986a1de5fef5631);
+            
+        
+
+        marker_7ddd77eb506b93633100cf940852305d.bindPopup(popup_92d4c16519efe95c1330e27329508b3c)
+        ;
+
+        
+    
+    
+            var marker_e63f7cb219d4ea4f0831d381f14a1c43 = L.marker(
+                [23.052095381735096, 72.60889797715477],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_7ad1da8f999e6fd93c64fe74b3b332ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55000dec2bc59237c9b17ab318e0a777 = $(`<div id="html_55000dec2bc59237c9b17ab318e0a777" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_24<br>         Rating: 4.2<br>         Sentiment: 0.37297         </div>`)[0];
+                popup_7ad1da8f999e6fd93c64fe74b3b332ee.setContent(html_55000dec2bc59237c9b17ab318e0a777);
+            
+        
+
+        marker_e63f7cb219d4ea4f0831d381f14a1c43.bindPopup(popup_7ad1da8f999e6fd93c64fe74b3b332ee)
+        ;
+
+        
+    
+    
+            var marker_d1059499fe4b763048157ca6624daf73 = L.marker(
+                [22.97433532298404, 72.59984601105613],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_91a1b132a3f0154d3567bec7e40d6cf9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02853e7106494ea9bd7d76d56e5d5400 = $(`<div id="html_02853e7106494ea9bd7d76d56e5d5400" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_25<br>         Rating: 4.5<br>         Sentiment: 0.5671700000000001         </div>`)[0];
+                popup_91a1b132a3f0154d3567bec7e40d6cf9.setContent(html_02853e7106494ea9bd7d76d56e5d5400);
+            
+        
+
+        marker_d1059499fe4b763048157ca6624daf73.bindPopup(popup_91a1b132a3f0154d3567bec7e40d6cf9)
+        ;
+
+        
+    
+    
+            var marker_6495ed37685a1fd8c8d2468783cec86d = L.marker(
+                [22.97651000358059, 72.54053618847928],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_75f2d0b701805a3a4562842d5694bffe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81c5a2171cdc67c6a6b8485830dcc7dc = $(`<div id="html_81c5a2171cdc67c6a6b8485830dcc7dc" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_26<br>         Rating: 2.6<br>         Sentiment: 0.38853         </div>`)[0];
+                popup_75f2d0b701805a3a4562842d5694bffe.setContent(html_81c5a2171cdc67c6a6b8485830dcc7dc);
+            
+        
+
+        marker_6495ed37685a1fd8c8d2468783cec86d.bindPopup(popup_75f2d0b701805a3a4562842d5694bffe)
+        ;
+
+        
+    
+    
+            var marker_6eb625c8a91c1a3fd791254054576a1f = L.marker(
+                [22.995019543554196, 72.53562438330074],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_6e07e2fe170b10767b181257d0ca04e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0af1f3310b051366f61b5fb879f66c6b = $(`<div id="html_0af1f3310b051366f61b5fb879f66c6b" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_27<br>         Rating: 3.2<br>         Sentiment: 0.38923         </div>`)[0];
+                popup_6e07e2fe170b10767b181257d0ca04e6.setContent(html_0af1f3310b051366f61b5fb879f66c6b);
+            
+        
+
+        marker_6eb625c8a91c1a3fd791254054576a1f.bindPopup(popup_6e07e2fe170b10767b181257d0ca04e6)
+        ;
+
+        
+    
+    
+            var marker_46e6ad72705e5bfd69efd3442f81311d = L.marker(
+                [23.029179657290694, 72.56298058261957],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_5f42872950bb188affe7b320e9a739f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0a1df28298d00d9b2656a961312b434 = $(`<div id="html_e0a1df28298d00d9b2656a961312b434" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_28<br>         Rating: 3.0<br>         Sentiment: 0.30104000000000003         </div>`)[0];
+                popup_5f42872950bb188affe7b320e9a739f2.setContent(html_e0a1df28298d00d9b2656a961312b434);
+            
+        
+
+        marker_46e6ad72705e5bfd69efd3442f81311d.bindPopup(popup_5f42872950bb188affe7b320e9a739f2)
+        ;
+
+        
+    
+    
+            var marker_78da0e42242f96f93c5769057d567df9 = L.marker(
+                [23.0166576724702, 72.53305609369562],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_0cc11b5b1d1cc358ea793f0dcf8acdb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f804c5fb27d089ad0d59dd17a185a45 = $(`<div id="html_4f804c5fb27d089ad0d59dd17a185a45" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_29<br>         Rating: 3.8<br>         Sentiment: 0.38188         </div>`)[0];
+                popup_0cc11b5b1d1cc358ea793f0dcf8acdb2.setContent(html_4f804c5fb27d089ad0d59dd17a185a45);
+            
+        
+
+        marker_78da0e42242f96f93c5769057d567df9.bindPopup(popup_0cc11b5b1d1cc358ea793f0dcf8acdb2)
+        ;
+
+        
+    
+    
+            var marker_75e2c49167149a5021578c9e58b504b6 = L.marker(
+                [23.05704725957017, 72.61063005039988],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_44f10c20058e8ab6d4cf7e2747e0192e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6a83cb4138af8047c5f50e970eaca5f = $(`<div id="html_c6a83cb4138af8047c5f50e970eaca5f" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_0<br>         Rating: 3.6<br>         Sentiment: nan         </div>`)[0];
+                popup_44f10c20058e8ab6d4cf7e2747e0192e.setContent(html_c6a83cb4138af8047c5f50e970eaca5f);
+            
+        
+
+        marker_75e2c49167149a5021578c9e58b504b6.bindPopup(popup_44f10c20058e8ab6d4cf7e2747e0192e)
+        ;
+
+        
+    
+    
+            var marker_306947c06597ac9ff10a81c05d716ad1 = L.marker(
+                [23.058762830352165, 72.6098959804001],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_bf6984fbf6c60da2687959e6a509376c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97eaf68c5238562b93c50d8a14ef84be = $(`<div id="html_97eaf68c5238562b93c50d8a14ef84be" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_1<br>         Rating: 2.8<br>         Sentiment: nan         </div>`)[0];
+                popup_bf6984fbf6c60da2687959e6a509376c.setContent(html_97eaf68c5238562b93c50d8a14ef84be);
+            
+        
+
+        marker_306947c06597ac9ff10a81c05d716ad1.bindPopup(popup_bf6984fbf6c60da2687959e6a509376c)
+        ;
+
+        
+    
+    
+            var marker_cf24925fbe844c89aa9a24f196bbaaad = L.marker(
+                [23.021665845635436, 72.61551298749495],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_9155b227f6b9eaef813b689ee2f68a0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0a6a3f81e7f44f42c3dc2fc297d2b61 = $(`<div id="html_b0a6a3f81e7f44f42c3dc2fc297d2b61" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_2<br>         Rating: 4.9<br>         Sentiment: nan         </div>`)[0];
+                popup_9155b227f6b9eaef813b689ee2f68a0e.setContent(html_b0a6a3f81e7f44f42c3dc2fc297d2b61);
+            
+        
+
+        marker_cf24925fbe844c89aa9a24f196bbaaad.bindPopup(popup_9155b227f6b9eaef813b689ee2f68a0e)
+        ;
+
+        
+    
+    
+            var marker_4bb4b9d692f809a7cd49e8da44416eb8 = L.marker(
+                [22.98979016220138, 72.54725302567178],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_fc86659fb6bca121bff83ae284785f5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cbdfefbceb1a5592c2de50c5b25c4bb = $(`<div id="html_8cbdfefbceb1a5592c2de50c5b25c4bb" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_3<br>         Rating: 3.3<br>         Sentiment: nan         </div>`)[0];
+                popup_fc86659fb6bca121bff83ae284785f5a.setContent(html_8cbdfefbceb1a5592c2de50c5b25c4bb);
+            
+        
+
+        marker_4bb4b9d692f809a7cd49e8da44416eb8.bindPopup(popup_fc86659fb6bca121bff83ae284785f5a)
+        ;
+
+        
+    
+    
+            var marker_bd12bc4402450584e96ca186b940fba9 = L.marker(
+                [23.042425127857573, 72.61684858289196],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_e51481ae3bab160ac10c760459d3f72a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a129f8e80ee8dcdd47fef3fe6310f0ff = $(`<div id="html_a129f8e80ee8dcdd47fef3fe6310f0ff" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_4<br>         Rating: 4.5<br>         Sentiment: nan         </div>`)[0];
+                popup_e51481ae3bab160ac10c760459d3f72a.setContent(html_a129f8e80ee8dcdd47fef3fe6310f0ff);
+            
+        
+
+        marker_bd12bc4402450584e96ca186b940fba9.bindPopup(popup_e51481ae3bab160ac10c760459d3f72a)
+        ;
+
+        
+    
+    
+            var marker_9b6aa333553073a7128f6d85eea0d33b = L.marker(
+                [23.03058509842813, 72.57378774556418],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_532fa8f74737cda1e2e22bf90a9239fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5adeb1441aa9a5ca57734cac7e77c2f3 = $(`<div id="html_5adeb1441aa9a5ca57734cac7e77c2f3" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_5<br>         Rating: 3.3<br>         Sentiment: nan         </div>`)[0];
+                popup_532fa8f74737cda1e2e22bf90a9239fc.setContent(html_5adeb1441aa9a5ca57734cac7e77c2f3);
+            
+        
+
+        marker_9b6aa333553073a7128f6d85eea0d33b.bindPopup(popup_532fa8f74737cda1e2e22bf90a9239fc)
+        ;
+
+        
+    
+    
+            var marker_44efefa1107d6e605215ee31d10157be = L.marker(
+                [23.060774074370936, 72.61558498313859],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_16d16fea46cf9cd7b9b3387c855b56fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a8267d4bed12e048de2e3f03bb72129 = $(`<div id="html_5a8267d4bed12e048de2e3f03bb72129" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_6<br>         Rating: 3.7<br>         Sentiment: nan         </div>`)[0];
+                popup_16d16fea46cf9cd7b9b3387c855b56fd.setContent(html_5a8267d4bed12e048de2e3f03bb72129);
+            
+        
+
+        marker_44efefa1107d6e605215ee31d10157be.bindPopup(popup_16d16fea46cf9cd7b9b3387c855b56fd)
+        ;
+
+        
+    
+    
+            var marker_1dd3e5c3e60268ae9c4fd9dc0030e71c = L.marker(
+                [22.97598710669638, 72.52454543137586],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_22ecaa14a039a6291db94d55acab5183 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfe472762bca9559f856fcf408873045 = $(`<div id="html_dfe472762bca9559f856fcf408873045" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_7<br>         Rating: 3.8<br>         Sentiment: nan         </div>`)[0];
+                popup_22ecaa14a039a6291db94d55acab5183.setContent(html_dfe472762bca9559f856fcf408873045);
+            
+        
+
+        marker_1dd3e5c3e60268ae9c4fd9dc0030e71c.bindPopup(popup_22ecaa14a039a6291db94d55acab5183)
+        ;
+
+        
+    
+    
+            var marker_ab2c859c5c71703d14a75fbef1ea80a7 = L.marker(
+                [22.974484723874014, 72.59371959019863],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_9eefd1e8a4245418c7343e0792a40a3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca34df612b39d7c6a320a91e15e75bca = $(`<div id="html_ca34df612b39d7c6a320a91e15e75bca" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_8<br>         Rating: 4.8<br>         Sentiment: nan         </div>`)[0];
+                popup_9eefd1e8a4245418c7343e0792a40a3b.setContent(html_ca34df612b39d7c6a320a91e15e75bca);
+            
+        
+
+        marker_ab2c859c5c71703d14a75fbef1ea80a7.bindPopup(popup_9eefd1e8a4245418c7343e0792a40a3b)
+        ;
+
+        
+    
+    
+            var marker_ede5fa1f140bccd766af7218b84d8ebf = L.marker(
+                [22.98740617445117, 72.53685351731518],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_94a3120d6b62deaeeb2901a22e312995 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8256cd5242af3ca1bc4eac53f624e4b9 = $(`<div id="html_8256cd5242af3ca1bc4eac53f624e4b9" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_9<br>         Rating: 4.6<br>         Sentiment: nan         </div>`)[0];
+                popup_94a3120d6b62deaeeb2901a22e312995.setContent(html_8256cd5242af3ca1bc4eac53f624e4b9);
+            
+        
+
+        marker_ede5fa1f140bccd766af7218b84d8ebf.bindPopup(popup_94a3120d6b62deaeeb2901a22e312995)
+        ;
+
+        
+    
+    
+            var marker_27085e41bd90c2e08a1efeed0c674319 = L.marker(
+                [22.978448540480045, 72.58238555006476],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_65ac9af80e0e6b771c594d0bd1f539bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff230aad7ce6dd81e195e78df14cf239 = $(`<div id="html_ff230aad7ce6dd81e195e78df14cf239" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_10<br>         Rating: 2.9<br>         Sentiment: nan         </div>`)[0];
+                popup_65ac9af80e0e6b771c594d0bd1f539bb.setContent(html_ff230aad7ce6dd81e195e78df14cf239);
+            
+        
+
+        marker_27085e41bd90c2e08a1efeed0c674319.bindPopup(popup_65ac9af80e0e6b771c594d0bd1f539bb)
+        ;
+
+        
+    
+    
+            var marker_f8c6c4afdd5991f38fa98fd3063d5c6c = L.marker(
+                [23.049094523464387, 72.59074357217155],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_6dc82f1f3a942335ea0f1081f55bfd20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ace2ef1b5153152dff1b273419b993e1 = $(`<div id="html_ace2ef1b5153152dff1b273419b993e1" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_11<br>         Rating: 4.8<br>         Sentiment: nan         </div>`)[0];
+                popup_6dc82f1f3a942335ea0f1081f55bfd20.setContent(html_ace2ef1b5153152dff1b273419b993e1);
+            
+        
+
+        marker_f8c6c4afdd5991f38fa98fd3063d5c6c.bindPopup(popup_6dc82f1f3a942335ea0f1081f55bfd20)
+        ;
+
+        
+    
+    
+            var marker_c86bb8e49a230974106f8f4ce3c91e88 = L.marker(
+                [23.05046488053333, 72.60598910600078],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_833916691bb108e9b002d2404e725f09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f0278fa15b545ceaaef61f6859cfbc3 = $(`<div id="html_7f0278fa15b545ceaaef61f6859cfbc3" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_12<br>         Rating: 3.9<br>         Sentiment: nan         </div>`)[0];
+                popup_833916691bb108e9b002d2404e725f09.setContent(html_7f0278fa15b545ceaaef61f6859cfbc3);
+            
+        
+
+        marker_c86bb8e49a230974106f8f4ce3c91e88.bindPopup(popup_833916691bb108e9b002d2404e725f09)
+        ;
+
+        
+    
+    
+            var marker_25c95f9d2cc852ce22343755a0fa1d46 = L.marker(
+                [23.01678331989743, 72.57431435867635],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_b9af475aabe716cf0044aa33a46c4e5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98b59f1514099dbd46b3bf8f2eb4c588 = $(`<div id="html_98b59f1514099dbd46b3bf8f2eb4c588" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_13<br>         Rating: 3.7<br>         Sentiment: nan         </div>`)[0];
+                popup_b9af475aabe716cf0044aa33a46c4e5e.setContent(html_98b59f1514099dbd46b3bf8f2eb4c588);
+            
+        
+
+        marker_25c95f9d2cc852ce22343755a0fa1d46.bindPopup(popup_b9af475aabe716cf0044aa33a46c4e5e)
+        ;
+
+        
+    
+    
+            var marker_17a553c305911ae7440a369a8a6cb8ef = L.marker(
+                [23.04153942416328, 72.58281482277596],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_2b80c42aaa5c7eddf1f407b946ce13c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fc31f5c4ffcd30b42c2b71ee7bea73b = $(`<div id="html_0fc31f5c4ffcd30b42c2b71ee7bea73b" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_14<br>         Rating: 3.2<br>         Sentiment: nan         </div>`)[0];
+                popup_2b80c42aaa5c7eddf1f407b946ce13c9.setContent(html_0fc31f5c4ffcd30b42c2b71ee7bea73b);
+            
+        
+
+        marker_17a553c305911ae7440a369a8a6cb8ef.bindPopup(popup_2b80c42aaa5c7eddf1f407b946ce13c9)
+        ;
+
+        
+    
+    
+            var marker_7b769e9ef4c685301705aa9dbfbf0071 = L.marker(
+                [22.984949134754572, 72.55318964503995],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_46d6c4e572cc030afc92ebb2ee4e46c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_817e185b9ef3706ace97a1870485e9b3 = $(`<div id="html_817e185b9ef3706ace97a1870485e9b3" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_15<br>         Rating: 3.4<br>         Sentiment: nan         </div>`)[0];
+                popup_46d6c4e572cc030afc92ebb2ee4e46c1.setContent(html_817e185b9ef3706ace97a1870485e9b3);
+            
+        
+
+        marker_7b769e9ef4c685301705aa9dbfbf0071.bindPopup(popup_46d6c4e572cc030afc92ebb2ee4e46c1)
+        ;
+
+        
+    
+    
+            var marker_4045cb1a656775d26d61a525f415abdb = L.marker(
+                [23.061813446745933, 72.5511514374141],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_8a49cb69beec28c0b832702c5d98bb64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_505158b3d9bc43e1cd258f5cc4e1f180 = $(`<div id="html_505158b3d9bc43e1cd258f5cc4e1f180" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_16<br>         Rating: 3.0<br>         Sentiment: nan         </div>`)[0];
+                popup_8a49cb69beec28c0b832702c5d98bb64.setContent(html_505158b3d9bc43e1cd258f5cc4e1f180);
+            
+        
+
+        marker_4045cb1a656775d26d61a525f415abdb.bindPopup(popup_8a49cb69beec28c0b832702c5d98bb64)
+        ;
+
+        
+    
+    
+            var marker_e05f95867e5743b6ecd154a5f8b9a7bc = L.marker(
+                [23.00436612498822, 72.52263205904816],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_d96dcf2fc03905abe6eadbea30174c73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cc340da34ffde4020f0cd983e522a6c = $(`<div id="html_0cc340da34ffde4020f0cd983e522a6c" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_17<br>         Rating: 4.8<br>         Sentiment: nan         </div>`)[0];
+                popup_d96dcf2fc03905abe6eadbea30174c73.setContent(html_0cc340da34ffde4020f0cd983e522a6c);
+            
+        
+
+        marker_e05f95867e5743b6ecd154a5f8b9a7bc.bindPopup(popup_d96dcf2fc03905abe6eadbea30174c73)
+        ;
+
+        
+    
+    
+            var marker_6eea318f2c19ec8f73fb063931572037 = L.marker(
+                [22.99425633572957, 72.56137160783983],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_799b5516a16b92dd9ed7884681d9bacd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1bfb4547049500868c007c543fc7ba4 = $(`<div id="html_b1bfb4547049500868c007c543fc7ba4" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_18<br>         Rating: 3.9<br>         Sentiment: nan         </div>`)[0];
+                popup_799b5516a16b92dd9ed7884681d9bacd.setContent(html_b1bfb4547049500868c007c543fc7ba4);
+            
+        
+
+        marker_6eea318f2c19ec8f73fb063931572037.bindPopup(popup_799b5516a16b92dd9ed7884681d9bacd)
+        ;
+
+        
+    
+    
+            var marker_b28aa9cd4655e3b38b5376602d02ff82 = L.marker(
+                [23.02761769700835, 72.56673747749183],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_54e84dd39a1ba731f5c39f702b866cc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25c7b37ec904bb0aa526876529d08e93 = $(`<div id="html_25c7b37ec904bb0aa526876529d08e93" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_19<br>         Rating: 3.4<br>         Sentiment: nan         </div>`)[0];
+                popup_54e84dd39a1ba731f5c39f702b866cc8.setContent(html_25c7b37ec904bb0aa526876529d08e93);
+            
+        
+
+        marker_b28aa9cd4655e3b38b5376602d02ff82.bindPopup(popup_54e84dd39a1ba731f5c39f702b866cc8)
+        ;
+
+        
+    
+    
+            var marker_b8e43b364cc9933619a1bc9c64fb5d81 = L.marker(
+                [23.009677585121604, 72.60113515918098],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_0b506f6c2c788cb776645d877ea9f601 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a06842003996b3d69d16e7943a72e3b2 = $(`<div id="html_a06842003996b3d69d16e7943a72e3b2" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_20<br>         Rating: 3.1<br>         Sentiment: nan         </div>`)[0];
+                popup_0b506f6c2c788cb776645d877ea9f601.setContent(html_a06842003996b3d69d16e7943a72e3b2);
+            
+        
+
+        marker_b8e43b364cc9933619a1bc9c64fb5d81.bindPopup(popup_0b506f6c2c788cb776645d877ea9f601)
+        ;
+
+        
+    
+    
+            var marker_9a0aef111b7d7e082909fe3738257b9c = L.marker(
+                [23.01387559736699, 72.53197643328241],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_530a00ea994fd3c0cf3bfc13f2cc5313 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5c060d939e413f4cb7fbdcfd59d8124 = $(`<div id="html_c5c060d939e413f4cb7fbdcfd59d8124" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_21<br>         Rating: 4.0<br>         Sentiment: nan         </div>`)[0];
+                popup_530a00ea994fd3c0cf3bfc13f2cc5313.setContent(html_c5c060d939e413f4cb7fbdcfd59d8124);
+            
+        
+
+        marker_9a0aef111b7d7e082909fe3738257b9c.bindPopup(popup_530a00ea994fd3c0cf3bfc13f2cc5313)
+        ;
+
+        
+    
+    
+            var marker_be45d9b69eca0d74991e832717ae9d4f = L.marker(
+                [23.068086982837446, 72.52865430119597],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_5833e56a2f19a4388b75c673d3c8a50a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8218ad01f9c0c6d838a2c7aa9e3338e5 = $(`<div id="html_8218ad01f9c0c6d838a2c7aa9e3338e5" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_22<br>         Rating: 5.0<br>         Sentiment: nan         </div>`)[0];
+                popup_5833e56a2f19a4388b75c673d3c8a50a.setContent(html_8218ad01f9c0c6d838a2c7aa9e3338e5);
+            
+        
+
+        marker_be45d9b69eca0d74991e832717ae9d4f.bindPopup(popup_5833e56a2f19a4388b75c673d3c8a50a)
+        ;
+
+        
+    
+    
+            var marker_87bd6d7ef28c567cb333633019403ba3 = L.marker(
+                [22.997708973504416, 72.54415629601729],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_353e47647ad71b50cc9dea973d917051 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f558a24f51dbcfa4c5db2439faaac7b8 = $(`<div id="html_f558a24f51dbcfa4c5db2439faaac7b8" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_23<br>         Rating: 4.7<br>         Sentiment: nan         </div>`)[0];
+                popup_353e47647ad71b50cc9dea973d917051.setContent(html_f558a24f51dbcfa4c5db2439faaac7b8);
+            
+        
+
+        marker_87bd6d7ef28c567cb333633019403ba3.bindPopup(popup_353e47647ad71b50cc9dea973d917051)
+        ;
+
+        
+    
+    
+            var marker_5bb68c691d701afec5df052a10d8eabb = L.marker(
+                [23.043885447422472, 72.53017613471488],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_35e08b94c954751247d44fb85ab622c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86a9c8546165d8139f60f52dddc688e1 = $(`<div id="html_86a9c8546165d8139f60f52dddc688e1" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_24<br>         Rating: 3.8<br>         Sentiment: nan         </div>`)[0];
+                popup_35e08b94c954751247d44fb85ab622c6.setContent(html_86a9c8546165d8139f60f52dddc688e1);
+            
+        
+
+        marker_5bb68c691d701afec5df052a10d8eabb.bindPopup(popup_35e08b94c954751247d44fb85ab622c6)
+        ;
+
+        
+    
+    
+            var marker_99e75d80045ba76d3db489715d4689c1 = L.marker(
+                [23.029714260190342, 72.60700142243076],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_fd2de95dd6eef0fd1615444c953e3f81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7504aa68a4530e3abaf01c183885c88c = $(`<div id="html_7504aa68a4530e3abaf01c183885c88c" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_25<br>         Rating: 4.4<br>         Sentiment: nan         </div>`)[0];
+                popup_fd2de95dd6eef0fd1615444c953e3f81.setContent(html_7504aa68a4530e3abaf01c183885c88c);
+            
+        
+
+        marker_99e75d80045ba76d3db489715d4689c1.bindPopup(popup_fd2de95dd6eef0fd1615444c953e3f81)
+        ;
+
+        
+    
+    
+            var marker_434d703775f8393a26653d6165e00621 = L.marker(
+                [23.003537187611492, 72.56875981669525],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_d7e553ec36d5362c7dfc17c76a6f6c85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccfd2629efe3e77fee4418c07c2db724 = $(`<div id="html_ccfd2629efe3e77fee4418c07c2db724" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_26<br>         Rating: 4.6<br>         Sentiment: nan         </div>`)[0];
+                popup_d7e553ec36d5362c7dfc17c76a6f6c85.setContent(html_ccfd2629efe3e77fee4418c07c2db724);
+            
+        
+
+        marker_434d703775f8393a26653d6165e00621.bindPopup(popup_d7e553ec36d5362c7dfc17c76a6f6c85)
+        ;
+
+        
+    
+    
+            var marker_b3a11851ee437bfe6c26d16e78471184 = L.marker(
+                [23.003314953336275, 72.62095646212381],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_704b26b8db96487af9f5a11478b1492e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96aba8d60605a5de2f0cc7b82782240e = $(`<div id="html_96aba8d60605a5de2f0cc7b82782240e" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_27<br>         Rating: 3.6<br>         Sentiment: nan         </div>`)[0];
+                popup_704b26b8db96487af9f5a11478b1492e.setContent(html_96aba8d60605a5de2f0cc7b82782240e);
+            
+        
+
+        marker_b3a11851ee437bfe6c26d16e78471184.bindPopup(popup_704b26b8db96487af9f5a11478b1492e)
+        ;
+
+        
+    
+    
+            var marker_ce3733ccaf73705defc752d4b148d0da = L.marker(
+                [22.977902421886576, 72.61544612705802],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_21deba84e3d3cbe2f47737b493f201d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a38e1f98d60bcf55ce371295c288da5f = $(`<div id="html_a38e1f98d60bcf55ce371295c288da5f" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_28<br>         Rating: 4.7<br>         Sentiment: nan         </div>`)[0];
+                popup_21deba84e3d3cbe2f47737b493f201d5.setContent(html_a38e1f98d60bcf55ce371295c288da5f);
+            
+        
+
+        marker_ce3733ccaf73705defc752d4b148d0da.bindPopup(popup_21deba84e3d3cbe2f47737b493f201d5)
+        ;
+
+        
+    
+    
+            var marker_31ba2ecf9a32bfb839ebba56dbd95622 = L.marker(
+                [23.056138068070243, 72.53227174228114],
+                {
+}
+            ).addTo(map_09a6a06f792070784011f4b7dde5ff2f);
+        
+    
+        var popup_ab64168f5efbdff6c52b62a34127c657 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3515cecbd99281a066972b5f7e2eb04f = $(`<div id="html_3515cecbd99281a066972b5f7e2eb04f" style="width: 100.0%; height: 100.0%;">         Name: Restaurant_29<br>         Rating: 4.7<br>         Sentiment: nan         </div>`)[0];
+                popup_ab64168f5efbdff6c52b62a34127c657.setContent(html_3515cecbd99281a066972b5f7e2eb04f);
+            
+        
+
+        marker_31ba2ecf9a32bfb839ebba56dbd95622.bindPopup(popup_ab64168f5efbdff6c52b62a34127c657)
+        ;
+
+        
+    
+</script>
+</html>

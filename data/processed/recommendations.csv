@@ -1,0 +1,61 @@
+name,rating,sentiment,recommendation
+Restaurant_0,4.2,0.27944,Business performing well
+Restaurant_1,5.0,0.40523,Business performing well
+Restaurant_2,3.1,0.13799,Improve overall service quality | Increase marketing to attract more customers
+Restaurant_3,3.6,0.32194,Business performing well
+Restaurant_4,3.0,0.32250999999999996,Improve overall service quality | Pricing may be too high for perceived value
+Restaurant_5,2.7,0.34717000000000003,Improve overall service quality | Pricing may be too high for perceived value
+Restaurant_6,3.8,0.13133999999999998,Pricing may be too high for perceived value
+Restaurant_7,3.0,0.23864999999999997,Improve overall service quality
+Restaurant_8,4.7,0.16265000000000002,Business performing well
+Restaurant_9,4.4,0.42394,Business performing well
+Restaurant_10,4.9,0.07327999999999998,Business performing well
+Restaurant_11,3.0,0.15536,Improve overall service quality | Pricing may be too high for perceived value
+Restaurant_12,4.2,0.38012999999999997,Business performing well
+Restaurant_13,4.9,0.19252,Increase marketing to attract more customers
+Restaurant_14,3.3,0.21883,Improve overall service quality
+Restaurant_15,4.4,0.39575,Business performing well
+Restaurant_16,2.8,0.10979999999999998,Improve overall service quality | Pricing may be too high for perceived value
+Restaurant_17,2.8,0.20149,Improve overall service quality
+Restaurant_18,2.9,0.40711,Improve overall service quality
+Restaurant_19,2.9,0.32194,Improve overall service quality
+Restaurant_20,2.8,0.39858000000000005,Improve overall service quality | Pricing may be too high for perceived value
+Restaurant_21,3.8,0.47614999999999996,Business performing well
+Restaurant_22,4.5,0.39626,Business performing well
+Restaurant_23,4.0,0.49813,Business performing well
+Restaurant_24,4.2,0.37297,Business performing well
+Restaurant_25,4.5,0.5671700000000001,Business performing well
+Restaurant_26,2.6,0.38853,Improve overall service quality
+Restaurant_27,3.2,0.38923,Improve overall service quality
+Restaurant_28,3.0,0.30104000000000003,Improve overall service quality | Pricing may be too high for perceived value
+Restaurant_29,3.8,0.38188,Business performing well
+Restaurant_0,3.6,,Pricing may be too high for perceived value
+Restaurant_1,2.8,,Improve overall service quality | Pricing may be too high for perceived value
+Restaurant_2,4.9,,Business performing well
+Restaurant_3,3.3,,Improve overall service quality
+Restaurant_4,4.5,,Business performing well
+Restaurant_5,3.3,,Improve overall service quality | Pricing may be too high for perceived value
+Restaurant_6,3.7,,Pricing may be too high for perceived value
+Restaurant_7,3.8,,Pricing may be too high for perceived value
+Restaurant_8,4.8,,Business performing well
+Restaurant_9,4.6,,Business performing well
+Restaurant_10,2.9,,Improve overall service quality
+Restaurant_11,4.8,,Business performing well
+Restaurant_12,3.9,,Pricing may be too high for perceived value
+Restaurant_13,3.7,,Business performing well
+Restaurant_14,3.2,,Improve overall service quality
+Restaurant_15,3.4,,Improve overall service quality
+Restaurant_16,3.0,,Improve overall service quality
+Restaurant_17,4.8,,Business performing well
+Restaurant_18,3.9,,Business performing well
+Restaurant_19,3.4,,Improve overall service quality | Pricing may be too high for perceived value
+Restaurant_20,3.1,,Improve overall service quality
+Restaurant_21,4.0,,Business performing well
+Restaurant_22,5.0,,Business performing well
+Restaurant_23,4.7,,Business performing well
+Restaurant_24,3.8,,Business performing well
+Restaurant_25,4.4,,Business performing well
+Restaurant_26,4.6,,Business performing well
+Restaurant_27,3.6,,Business performing well
+Restaurant_28,4.7,,Business performing well
+Restaurant_29,4.7,,Business performing well
